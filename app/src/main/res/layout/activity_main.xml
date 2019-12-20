@@ -53,6 +53,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="10dp"
         android:fontFamily="sans-serif-light"
         android:padding="30dp"
@@ -68,19 +69,20 @@
     </TextView>
 
     <LinearLayout
-        android:padding="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="60dp"
+        android:layout_marginBottom="88dp"
         android:orientation="horizontal"
+        android:padding="20dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="@id/imageView"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@id/imageView">
 
         <info.hoang8f.widget.FButton
             android:id="@+id/signUp_btn"
             android:layout_width="0dp"
-            android:layout_height="45dp"
+            android:layout_height="35dp"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="2.5dp"
             android:layout_weight="0.5"
@@ -89,8 +91,8 @@
             android:text="Sign Up"
             android:textAllCaps="false"
             android:textColor="@android:color/white"
-            app:cornerRadius="5dp"
             android:textSize="12sp"
+            app:cornerRadius="5dp"
             app:shadowColor="@color/btnSignUp"
             app:shadowEnabled="true"
             app:shadowHeight="2.5dp" />
@@ -98,16 +100,16 @@
         <info.hoang8f.widget.FButton
             android:id="@+id/login_btn"
             android:layout_width="0dp"
-            android:layout_height="45dp"
+            android:layout_height="35dp"
             android:layout_marginStart="2.5dp"
             android:layout_marginEnd="10dp"
             android:layout_weight="0.5"
             android:backgroundTint="@color/btnLogin"
             android:fontFamily="sans-serif-light"
             android:text="Login"
-            android:textSize="12sp"
             android:textAllCaps="false"
             android:textColor="@android:color/white"
+            android:textSize="12sp"
             app:cornerRadius="5dp"
             app:shadowColor="@color/btnLogin"
             app:shadowEnabled="true"
@@ -117,11 +119,11 @@
     </LinearLayout>
 
     <LinearLayout
-        android:padding="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="60dp"
         android:orientation="horizontal"
+        android:padding="30dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="@id/imageView"
         app:layout_constraintStart_toStartOf="@id/imageView">
@@ -131,9 +133,9 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="12dp"
             android:fontFamily="sans-serif-light"
+            android:text="Don't have an account?"
             android:textColor="@android:color/white"
-            android:textSize="10sp"
-            android:text="Don't have an account?">
+            android:textSize="10sp">
 
         </TextView>
     </LinearLayout>
