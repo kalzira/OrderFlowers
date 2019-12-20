@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1072750325635",
+    "firebase_url": "https://orderflower-c3abe.firebaseio.com",
+    "project_id": "orderflower-c3abe",
+    "storage_bucket": "orderflower-c3abe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072750325635:android:14a8ec7448d43238d110b6",
+        "android_client_info": {
+          "package_name": "com.example.orderflowersapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072750325635-6o712l6s0nq0jb0629a2lb1179o1toc5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.orderflowersapp",
+            "certificate_hash": "5138fc4a8d90341e9c7dc4595783c1b8d372e685"
+          }
+        },
+        {
+          "client_id": "1072750325635-5c9loms143uini2dbec4l9hvsec02bok.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqOGFw-xHIqzLm-EV4U49ou0p6B_gYdZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072750325635-5c9loms143uini2dbec4l9hvsec02bok.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
